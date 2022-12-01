@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    outline: 0;
+}
+img{
+    width: 100px;
+
+}
+#rooms{
+    width: 50%;
+    background-color: rgb(38, 206, 169 , 0.3);
+    text-align: center;
+    margin: 20% auto;
+    padding: 20px;
+    background-image: linear-gradient(rgb(124, 124, 206) rgb(125, 190, 190) );
+    border: 1px solid;
+}
+body{
+    background-image: url(/img/png.jpg);
+}
+input,label{
+    display: block;
+}
+input{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid;
+}
+input::placeholder{
+    color: black;
+}
+label{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px opx;
+}
+#rooms hi{
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+input[type="submit"]{
+    margin: 10px auto;
+    width: 20%;
+
+}
+input[type="reset"]{
+    margin: 10px auto;
+    width: 100px;
+    height: 50px;
+
+}input[type="submit"]:hover{
+    background-color: yellow;
+     cursor: pointer;
+     font-size: 15px;
+     text-transform: uppercase;
+
+}
+input[type="reset"]:hover{
+    background-color: crimson;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 20px 30px;
+}
+th,td,td{
+    border: 1px solid;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+    
+
